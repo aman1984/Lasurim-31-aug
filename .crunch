@@ -1,0 +1,29 @@
+{
+	"compilers": {
+		"less": {
+			"compress": false,
+			"ieCompat": false,
+			"strictMath": false,
+			"strictUnits": false,
+			"javascriptEnabled": false,
+			"sourcemap": true
+		}
+	},
+	"files": {
+		"less/main.less": {
+			"output": "../css/main.css",
+			"compilers": [
+				"less"
+			],
+			"lastCrunch": "Mon Aug 31 2015 19:14:13 GMT+0530 (India Standard Time)",
+			"sources": [
+				"base.less",
+				"buttons.less",
+				"custom.less",
+				"navigation.less",
+				"skins.less",
+				"variables.less"
+			]
+		}
+	}
+}
